@@ -1,0 +1,53 @@
+<featureType>
+  <id>FeatureTypeInfoImpl-3bc9a9d7:170cefed45c:11ec</id>
+  <name>WestLancs</name>
+  <nativeName>WestLancs</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl--6dbb465b:16bdbde7ef2:-7ff5</id>
+  </namespace>
+  <title>WestLancs</title>
+  <keywords>
+    <string>features</string>
+    <string>WestLancs</string>
+  </keywords>
+  <srs>EPSG:4326</srs>
+  <nativeBoundingBox>
+    <minx>-3.07163967339067</minx>
+    <maxx>-1.54992282193545</maxx>
+    <miny>52.9543956195435</miny>
+    <maxy>54.3248661463158</maxy>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>-3.07163967339067</minx>
+    <maxx>-1.54992282193545</maxx>
+    <miny>52.9543956195435</miny>
+    <maxy>54.3248661463158</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <metadata>
+    <entry key="JDBC_VIRTUAL_TABLE">
+      <virtualTable>
+        <name>WestLancs</name>
+        <sql>SELECT mosaictype, mosaicgroup, geom&#xd;
+	FROM public.mosaichousehold&#xd;
+	WHERE westlancs = 1
+</sql>
+        <escapeSql>false</escapeSql>
+      </virtualTable>
+    </entry>
+    <entry key="cachingEnabled">false</entry>
+  </metadata>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl--6dbb465b:16bdbde7ef2:-7ff4</id>
+  </store>
+  <serviceConfiguration>false</serviceConfiguration>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <padWithZeros>false</padWithZeros>
+  <forcedDecimal>false</forcedDecimal>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

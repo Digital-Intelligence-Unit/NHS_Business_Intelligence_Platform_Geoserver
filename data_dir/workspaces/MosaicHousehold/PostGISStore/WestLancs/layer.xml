@@ -1,0 +1,20 @@
+<layer>
+  <name>WestLancs</name>
+  <id>LayerInfoImpl-3bc9a9d7:170cefed45c:11ed</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--5e587cb8:16be11124d5:6a78</id>
+  </defaultStyle>
+  <styles class="linked-hash-set">
+    <style>
+      <id>StyleInfoImpl--5e587cb8:16be11124d5:6a78</id>
+    </style>
+  </styles>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-3bc9a9d7:170cefed45c:11ec</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>
