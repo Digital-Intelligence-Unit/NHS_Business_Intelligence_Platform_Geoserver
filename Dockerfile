@@ -1,7 +1,7 @@
 FROM kartoza/geoserver:2.23.0
 
 ENV ENABLE_JSONP=true
-ENV GEOSERVER_ADMIN_PASSWORD=digitalintelligenceunit1957
+ENV GEOSERVER_ADMIN_PASSWORD=SDdjgre43@xvc
 
 # Copy data
 COPY geoserver_data $GEOSERVER_DATA_DIR
