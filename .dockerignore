@@ -1,3 +1,1 @@
-docker-env/*
-Dockerfile
-.git*
+build/

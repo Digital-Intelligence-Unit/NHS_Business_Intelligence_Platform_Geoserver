@@ -1,0 +1,20 @@
+<layer>
+    <name>mosaichousehold</name>
+    <id>LayerInfoImpl--6dbb465b:16bdbde7ef2:-7ff1</id>
+    <type>VECTOR</type>
+    <defaultStyle>
+        <id>StyleInfoImpl--5e587cb8:16be11124d5:6a78</id>
+    </defaultStyle>
+    <styles class="linked-hash-set">
+        <style>
+            <id>StyleInfoImpl--5e587cb8:16be11124d5:6a78</id>
+        </style>
+    </styles>
+    <resource class="featureType">
+        <id>FeatureTypeInfoImpl--6dbb465b:16bdbde7ef2:-7ff2</id>
+    </resource>
+    <attribution>
+        <logoWidth>0</logoWidth>
+        <logoHeight>0</logoHeight>
+    </attribution>
+</layer>
