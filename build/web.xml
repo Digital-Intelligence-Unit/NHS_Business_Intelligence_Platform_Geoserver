@@ -117,7 +117,7 @@
     <!-- https://gis.stackexchange.com/questions/436962/geoserver-j-spring-security-check-on-login -->
     <context-param>
         <param-name>PROXY_BASE_URL</param-name>
-        <param-value>https://geoserver.dev.nexusintelligencenw.nhs.uk</param-value>
+        <param-value>https://geoserver.dev.nexusintelligencenw.nhs.uk/geoserver</param-value>
     </context-param>
 
   <!-- The JSP page compiler and execution servlet, which is the mechanism  -->
