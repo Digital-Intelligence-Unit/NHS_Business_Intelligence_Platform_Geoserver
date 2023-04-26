@@ -114,6 +114,11 @@
         <load-on-startup>1</load-on-startup>
     </servlet>
 
+    <!-- https://gis.stackexchange.com/questions/436962/geoserver-j-spring-security-check-on-login -->
+    <context-param>
+        <param-name>PROXY_BASE_URL</param-name>
+        <param-value>https://geoserver.dev.nexusintelligencenw.nhs.uk</param-value>
+    </context-param>
 
   <!-- The JSP page compiler and execution servlet, which is the mechanism  -->
   <!-- used by Tomcat to support JSP pages.  Traditionally, this servlet    -->
