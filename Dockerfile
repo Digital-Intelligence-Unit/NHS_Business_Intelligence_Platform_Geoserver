@@ -2,8 +2,8 @@ FROM kartoza/geoserver:2.23.0
 
 ENV ENABLE_JSONP=true
 ENV GEOSERVER_ADMIN_PASSWORD=SDdjgre43@xvc
-HTTP_PROXY_NAME=geoserver.dev.nexusintelligencenw.nhs.uk
-HTTP_SCHEME=https
+ENV HTTP_PROXY_NAME=geoserver.dev.nexusintelligencenw.nhs.uk
+ENV HTTP_SCHEME=https
 
 # Copy data
 COPY geoserver_data $GEOSERVER_DATA_DIR
