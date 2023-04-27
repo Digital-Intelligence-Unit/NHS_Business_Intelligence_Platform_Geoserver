@@ -1,7 +1,7 @@
 FROM kartoza/geoserver:2.23.0
 
 ENV ENABLE_JSONP=true
-ENV GEOSERVER_ADMIN_PASSWORD=SDdjgre43@xvc
+ENV GEOSERVER_ADMIN_PASSWORD=$GEOSERVER_ADMIN_PASSWORD
 ENV HTTP_PROXY_NAME=geoserver.dev.nexusintelligencenw.nhs.uk
 ENV HTTP_SCHEME=https
 
@@ -11,3 +11,4 @@ COPY settings/web.xml "${CATALINA_HOME}"/conf/
 
 # Set database details
 RUN sed -i "s/PGDATABASE/$PGDATABASE/g" $GEOSERVER_DATA_DIR/workspaces/DIUPostgres/PostGISStore/datastore.xml
+RUN sed -i "s/POSTGRES_PW/$POSTGRES_PW/g" $GEOSERVER_DATA_DIR/workspaces/DIUPostgres/PostGISStore/datastore.xml
