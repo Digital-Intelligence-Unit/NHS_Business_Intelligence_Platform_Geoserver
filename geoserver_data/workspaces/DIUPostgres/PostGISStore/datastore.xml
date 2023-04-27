@@ -1,7 +1,6 @@
 <dataStore>
     <id>DataStoreInfoImpl--6dbb465b:16bdbde7ef2:-7ff4</id>
     <name>PostGISStore</name>
-    <description>Post GIS</description>
     <type>PostGIS</type>
     <enabled>true</enabled>
     <workspace>
@@ -28,7 +27,7 @@
         <entry key="passwd">crypt1:rxva495KEaSudA3vovbpEa91BGvXvlygKqXyWOwmQWs=</entry>
         <entry key="min connections">1</entry>
         <entry key="dbtype">postgis</entry>
-        <entry key="namespace">MosaicHousehold</entry>
+        <entry key="namespace">DIUPostgres</entry>
         <entry key="max connections">10</entry>
         <entry key="Evictor tests per run">3</entry>
         <entry key="Test while idle">true</entry>
