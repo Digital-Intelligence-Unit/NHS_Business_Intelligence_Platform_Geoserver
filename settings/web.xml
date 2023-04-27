@@ -33,11 +33,6 @@
 
     <!-- ================== For HTTPS ==================== -->
     <context-param>
-        <param-name>PROXY_BASE_URL</param-name>
-        <param-value>https://geoserver.dev.nexusintelligencenw.nhs.uk/geoserver</param-value>
-    </context-param>
-    
-    <context-param>
         <param-name>GEOSERVER_CSRF_WHITELIST</param-name>
         <param-value>geoserver.dev.nexusintelligencenw.nhs.uk,geoserver.nexusintelligencenw.nhs.uk</param-value>
     </context-param>
