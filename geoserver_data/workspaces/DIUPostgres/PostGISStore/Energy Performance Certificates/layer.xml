@@ -1,0 +1,17 @@
+<layer>
+  <name>Energy Performance Certificates</name>
+  <id>LayerInfoImpl--50e1c0fb:187c2087d9a:73a1</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--50e1c0fb:187c2087d9a:739f</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--50e1c0fb:187c2087d9a:73a0</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2023-04-27 09:58:00.773 UTC</dateCreated>
+  <dateModified>2023-04-27 10:08:44.321 UTC</dateModified>
+</layer>
