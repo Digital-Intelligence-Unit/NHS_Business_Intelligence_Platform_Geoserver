@@ -1,27 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<StyledLayerDescriptor xmlns="http://www.opengis.net/sld" xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.1.0/StyledLayerDescriptor.xsd" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1.0" xmlns:se="http://www.opengis.net/se" xmlns:ogc="http://www.opengis.net/ogc" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<StyledLayerDescriptor xmlns="http://www.opengis.net/sld" xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.1.0/StyledLayerDescriptor.xsd" xmlns:ogc="http://www.opengis.net/ogc" xmlns:se="http://www.opengis.net/se" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1.0">
   <NamedLayer>
-    <se:Name>QueryLayer</se:Name>
+    <se:Name>EPC Rating (%)</se:Name>
     <UserStyle>
-      <se:Name>QueryLayer</se:Name>
+      <se:Name>EPC Rating (%)</se:Name>
       <se:FeatureTypeStyle>
         <se:Rule>
-          <se:Name></se:Name>
+          <se:Name>A</se:Name>
           <se:Description>
-            <se:Title>metric_data_value_char is 'A'</se:Title>
+            <se:Title>A</se:Title>
           </se:Description>
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>metric_data_value_char</ogc:PropertyName>
-              <ogc:Literal>A</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
+            <ogc:And>
+              <ogc:PropertyIsGreaterThanOrEqualTo>
+                <ogc:PropertyName>metric_data_value_float</ogc:PropertyName>
+                <ogc:Literal>0</ogc:Literal>
+              </ogc:PropertyIsGreaterThanOrEqualTo>
+              <ogc:PropertyIsLessThanOrEqualTo>
+                <ogc:PropertyName>metric_data_value_float</ogc:PropertyName>
+                <ogc:Literal>26.98999999999999844</ogc:Literal>
+              </ogc:PropertyIsLessThanOrEqualTo>
+            </ogc:And>
           </ogc:Filter>
           <se:PointSymbolizer>
             <se:Graphic>
               <se:Mark>
                 <se:WellKnownName>circle</se:WellKnownName>
                 <se:Fill>
-                  <se:SvgParameter name="fill">#8cff33</se:SvgParameter>
+                  <se:SvgParameter name="fill">#00c781</se:SvgParameter>
                 </se:Fill>
                 <se:Stroke>
                   <se:SvgParameter name="stroke">#232323</se:SvgParameter>
@@ -33,22 +39,28 @@
           </se:PointSymbolizer>
         </se:Rule>
         <se:Rule>
-          <se:Name></se:Name>
+          <se:Name>B</se:Name>
           <se:Description>
-            <se:Title>metric_data_value_char is 'B'</se:Title>
+            <se:Title>B</se:Title>
           </se:Description>
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>metric_data_value_char</ogc:PropertyName>
-              <ogc:Literal>B</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
+            <ogc:And>
+              <ogc:PropertyIsGreaterThan>
+                <ogc:PropertyName>metric_data_value_float</ogc:PropertyName>
+                <ogc:Literal>26.98999999999999844</ogc:Literal>
+              </ogc:PropertyIsGreaterThan>
+              <ogc:PropertyIsLessThanOrEqualTo>
+                <ogc:PropertyName>metric_data_value_float</ogc:PropertyName>
+                <ogc:Literal>50.99000000000000199</ogc:Literal>
+              </ogc:PropertyIsLessThanOrEqualTo>
+            </ogc:And>
           </ogc:Filter>
           <se:PointSymbolizer>
             <se:Graphic>
               <se:Mark>
                 <se:WellKnownName>circle</se:WellKnownName>
                 <se:Fill>
-                  <se:SvgParameter name="fill">#79e326</se:SvgParameter>
+                  <se:SvgParameter name="fill">#19b459</se:SvgParameter>
                 </se:Fill>
                 <se:Stroke>
                   <se:SvgParameter name="stroke">#232323</se:SvgParameter>
@@ -60,22 +72,28 @@
           </se:PointSymbolizer>
         </se:Rule>
         <se:Rule>
-          <se:Name></se:Name>
+          <se:Name>C</se:Name>
           <se:Description>
-            <se:Title>metric_data_value_char is 'C'</se:Title>
+            <se:Title>C</se:Title>
           </se:Description>
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>metric_data_value_char</ogc:PropertyName>
-              <ogc:Literal>C</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
+            <ogc:And>
+              <ogc:PropertyIsGreaterThan>
+                <ogc:PropertyName>metric_data_value_float</ogc:PropertyName>
+                <ogc:Literal>50.99000000000000199</ogc:Literal>
+              </ogc:PropertyIsGreaterThan>
+              <ogc:PropertyIsLessThanOrEqualTo>
+                <ogc:PropertyName>metric_data_value_float</ogc:PropertyName>
+                <ogc:Literal>75.98999999999999488</ogc:Literal>
+              </ogc:PropertyIsLessThanOrEqualTo>
+            </ogc:And>
           </ogc:Filter>
           <se:PointSymbolizer>
             <se:Graphic>
               <se:Mark>
                 <se:WellKnownName>circle</se:WellKnownName>
                 <se:Fill>
-                  <se:SvgParameter name="fill">#6bc225</se:SvgParameter>
+                  <se:SvgParameter name="fill">#8dce46</se:SvgParameter>
                 </se:Fill>
                 <se:Stroke>
                   <se:SvgParameter name="stroke">#232323</se:SvgParameter>
@@ -87,22 +105,28 @@
           </se:PointSymbolizer>
         </se:Rule>
         <se:Rule>
-          <se:Name></se:Name>
+          <se:Name>D</se:Name>
           <se:Description>
-            <se:Title>metric_data_value_char is 'D'</se:Title>
+            <se:Title>D</se:Title>
           </se:Description>
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>metric_data_value_char</ogc:PropertyName>
-              <ogc:Literal>D</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
+            <ogc:And>
+              <ogc:PropertyIsGreaterThan>
+                <ogc:PropertyName>metric_data_value_float</ogc:PropertyName>
+                <ogc:Literal>75.98999999999999488</ogc:Literal>
+              </ogc:PropertyIsGreaterThan>
+              <ogc:PropertyIsLessThanOrEqualTo>
+                <ogc:PropertyName>metric_data_value_float</ogc:PropertyName>
+                <ogc:Literal>100.98999999999999488</ogc:Literal>
+              </ogc:PropertyIsLessThanOrEqualTo>
+            </ogc:And>
           </ogc:Filter>
           <se:PointSymbolizer>
             <se:Graphic>
               <se:Mark>
                 <se:WellKnownName>circle</se:WellKnownName>
                 <se:Fill>
-                  <se:SvgParameter name="fill">#ffea2b</se:SvgParameter>
+                  <se:SvgParameter name="fill">#ffd500</se:SvgParameter>
                 </se:Fill>
                 <se:Stroke>
                   <se:SvgParameter name="stroke">#232323</se:SvgParameter>
@@ -114,22 +138,28 @@
           </se:PointSymbolizer>
         </se:Rule>
         <se:Rule>
-          <se:Name></se:Name>
+          <se:Name>E</se:Name>
           <se:Description>
-            <se:Title>metric_data_value_char is 'E'</se:Title>
+            <se:Title>E</se:Title>
           </se:Description>
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>metric_data_value_char</ogc:PropertyName>
-              <ogc:Literal>E</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
+            <ogc:And>
+              <ogc:PropertyIsGreaterThan>
+                <ogc:PropertyName>metric_data_value_float</ogc:PropertyName>
+                <ogc:Literal>100.98999999999999488</ogc:Literal>
+              </ogc:PropertyIsGreaterThan>
+              <ogc:PropertyIsLessThanOrEqualTo>
+                <ogc:PropertyName>metric_data_value_float</ogc:PropertyName>
+                <ogc:Literal>125.98999999999999488</ogc:Literal>
+              </ogc:PropertyIsLessThanOrEqualTo>
+            </ogc:And>
           </ogc:Filter>
           <se:PointSymbolizer>
             <se:Graphic>
               <se:Mark>
                 <se:WellKnownName>circle</se:WellKnownName>
                 <se:Fill>
-                  <se:SvgParameter name="fill">#f3a229</se:SvgParameter>
+                  <se:SvgParameter name="fill">#fcaa65</se:SvgParameter>
                 </se:Fill>
                 <se:Stroke>
                   <se:SvgParameter name="stroke">#232323</se:SvgParameter>
@@ -141,22 +171,28 @@
           </se:PointSymbolizer>
         </se:Rule>
         <se:Rule>
-          <se:Name></se:Name>
+          <se:Name>F</se:Name>
           <se:Description>
-            <se:Title>metric_data_value_char is 'F'</se:Title>
+            <se:Title>F</se:Title>
           </se:Description>
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>metric_data_value_char</ogc:PropertyName>
-              <ogc:Literal>F</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
+            <ogc:And>
+              <ogc:PropertyIsGreaterThan>
+                <ogc:PropertyName>metric_data_value_float</ogc:PropertyName>
+                <ogc:Literal>125.98999999999999488</ogc:Literal>
+              </ogc:PropertyIsGreaterThan>
+              <ogc:PropertyIsLessThanOrEqualTo>
+                <ogc:PropertyName>metric_data_value_float</ogc:PropertyName>
+                <ogc:Literal>150.99000000000000909</ogc:Literal>
+              </ogc:PropertyIsLessThanOrEqualTo>
+            </ogc:And>
           </ogc:Filter>
           <se:PointSymbolizer>
             <se:Graphic>
               <se:Mark>
                 <se:WellKnownName>circle</se:WellKnownName>
                 <se:Fill>
-                  <se:SvgParameter name="fill">#f32b2a</se:SvgParameter>
+                  <se:SvgParameter name="fill">#ef8023</se:SvgParameter>
                 </se:Fill>
                 <se:Stroke>
                   <se:SvgParameter name="stroke">#232323</se:SvgParameter>
@@ -168,22 +204,28 @@
           </se:PointSymbolizer>
         </se:Rule>
         <se:Rule>
-          <se:Name></se:Name>
+          <se:Name>G</se:Name>
           <se:Description>
-            <se:Title>metric_data_value_char is 'G'</se:Title>
+            <se:Title>G</se:Title>
           </se:Description>
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>metric_data_value_char</ogc:PropertyName>
-              <ogc:Literal>G</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
+            <ogc:And>
+              <ogc:PropertyIsGreaterThan>
+                <ogc:PropertyName>metric_data_value_float</ogc:PropertyName>
+                <ogc:Literal>150.99000000000000909</ogc:Literal>
+              </ogc:PropertyIsGreaterThan>
+              <ogc:PropertyIsLessThanOrEqualTo>
+                <ogc:PropertyName>metric_data_value_float</ogc:PropertyName>
+                <ogc:Literal>1000</ogc:Literal>
+              </ogc:PropertyIsLessThanOrEqualTo>
+            </ogc:And>
           </ogc:Filter>
           <se:PointSymbolizer>
             <se:Graphic>
               <se:Mark>
                 <se:WellKnownName>circle</se:WellKnownName>
                 <se:Fill>
-                  <se:SvgParameter name="fill">#b90101</se:SvgParameter>
+                  <se:SvgParameter name="fill">#e9153b</se:SvgParameter>
                 </se:Fill>
                 <se:Stroke>
                   <se:SvgParameter name="stroke">#232323</se:SvgParameter>
