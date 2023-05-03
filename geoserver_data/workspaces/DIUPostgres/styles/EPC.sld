@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<StyledLayerDescriptor xmlns="http://www.opengis.net/sld" xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.1.0/StyledLayerDescriptor.xsd" xmlns:ogc="http://www.opengis.net/ogc" xmlns:se="http://www.opengis.net/se" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1.0">
+<StyledLayerDescriptor xmlns="http://www.opengis.net/sld" version="1.1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ogc="http://www.opengis.net/ogc" xmlns:se="http://www.opengis.net/se" xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.1.0/StyledLayerDescriptor.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <NamedLayer>
-    <se:Name>EPC Rating (%)</se:Name>
+    <se:Name>EPC Certificates (%)</se:Name>
     <UserStyle>
-      <se:Name>EPC Rating (%)</se:Name>
+      <se:Name>EPC Certificates (%)</se:Name>
       <se:FeatureTypeStyle>
         <se:Rule>
           <se:Name>A</se:Name>
@@ -11,16 +11,10 @@
             <se:Title>A</se:Title>
           </se:Description>
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
-            <ogc:And>
-              <ogc:PropertyIsGreaterThanOrEqualTo>
-                <ogc:PropertyName>metric_data_value_float</ogc:PropertyName>
-                <ogc:Literal>0</ogc:Literal>
-              </ogc:PropertyIsGreaterThanOrEqualTo>
-              <ogc:PropertyIsLessThanOrEqualTo>
-                <ogc:PropertyName>metric_data_value_float</ogc:PropertyName>
-                <ogc:Literal>26.98999999999999844</ogc:Literal>
-              </ogc:PropertyIsLessThanOrEqualTo>
-            </ogc:And>
+            <ogc:PropertyIsGreaterThanOrEqualTo>
+              <ogc:PropertyName>metric_data_value_float</ogc:PropertyName>
+              <ogc:Literal>92</ogc:Literal>
+            </ogc:PropertyIsGreaterThanOrEqualTo>
           </ogc:Filter>
           <se:PointSymbolizer>
             <se:Graphic>
@@ -45,14 +39,14 @@
           </se:Description>
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
             <ogc:And>
-              <ogc:PropertyIsGreaterThan>
+              <ogc:PropertyIsGreaterThanOrEqualTo>
                 <ogc:PropertyName>metric_data_value_float</ogc:PropertyName>
-                <ogc:Literal>26.98999999999999844</ogc:Literal>
-              </ogc:PropertyIsGreaterThan>
-              <ogc:PropertyIsLessThanOrEqualTo>
+                <ogc:Literal>81</ogc:Literal>
+              </ogc:PropertyIsGreaterThanOrEqualTo>
+              <ogc:PropertyIsLessThan>
                 <ogc:PropertyName>metric_data_value_float</ogc:PropertyName>
-                <ogc:Literal>50.99000000000000199</ogc:Literal>
-              </ogc:PropertyIsLessThanOrEqualTo>
+                <ogc:Literal>92</ogc:Literal>
+              </ogc:PropertyIsLessThan>
             </ogc:And>
           </ogc:Filter>
           <se:PointSymbolizer>
@@ -78,14 +72,14 @@
           </se:Description>
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
             <ogc:And>
-              <ogc:PropertyIsGreaterThan>
+              <ogc:PropertyIsGreaterThanOrEqualTo>
                 <ogc:PropertyName>metric_data_value_float</ogc:PropertyName>
-                <ogc:Literal>50.99000000000000199</ogc:Literal>
-              </ogc:PropertyIsGreaterThan>
-              <ogc:PropertyIsLessThanOrEqualTo>
+                <ogc:Literal>69</ogc:Literal>
+              </ogc:PropertyIsGreaterThanOrEqualTo>
+              <ogc:PropertyIsLessThan>
                 <ogc:PropertyName>metric_data_value_float</ogc:PropertyName>
-                <ogc:Literal>75.98999999999999488</ogc:Literal>
-              </ogc:PropertyIsLessThanOrEqualTo>
+                <ogc:Literal>81</ogc:Literal>
+              </ogc:PropertyIsLessThan>
             </ogc:And>
           </ogc:Filter>
           <se:PointSymbolizer>
@@ -111,14 +105,14 @@
           </se:Description>
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
             <ogc:And>
-              <ogc:PropertyIsGreaterThan>
+              <ogc:PropertyIsGreaterThanOrEqualTo>
                 <ogc:PropertyName>metric_data_value_float</ogc:PropertyName>
-                <ogc:Literal>75.98999999999999488</ogc:Literal>
-              </ogc:PropertyIsGreaterThan>
-              <ogc:PropertyIsLessThanOrEqualTo>
+                <ogc:Literal>55</ogc:Literal>
+              </ogc:PropertyIsGreaterThanOrEqualTo>
+              <ogc:PropertyIsLessThan>
                 <ogc:PropertyName>metric_data_value_float</ogc:PropertyName>
-                <ogc:Literal>100.98999999999999488</ogc:Literal>
-              </ogc:PropertyIsLessThanOrEqualTo>
+                <ogc:Literal>69</ogc:Literal>
+              </ogc:PropertyIsLessThan>
             </ogc:And>
           </ogc:Filter>
           <se:PointSymbolizer>
@@ -144,14 +138,14 @@
           </se:Description>
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
             <ogc:And>
-              <ogc:PropertyIsGreaterThan>
+              <ogc:PropertyIsGreaterThanOrEqualTo>
                 <ogc:PropertyName>metric_data_value_float</ogc:PropertyName>
-                <ogc:Literal>100.98999999999999488</ogc:Literal>
-              </ogc:PropertyIsGreaterThan>
-              <ogc:PropertyIsLessThanOrEqualTo>
+                <ogc:Literal>39</ogc:Literal>
+              </ogc:PropertyIsGreaterThanOrEqualTo>
+              <ogc:PropertyIsLessThan>
                 <ogc:PropertyName>metric_data_value_float</ogc:PropertyName>
-                <ogc:Literal>125.98999999999999488</ogc:Literal>
-              </ogc:PropertyIsLessThanOrEqualTo>
+                <ogc:Literal>55</ogc:Literal>
+              </ogc:PropertyIsLessThan>
             </ogc:And>
           </ogc:Filter>
           <se:PointSymbolizer>
@@ -177,14 +171,14 @@
           </se:Description>
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
             <ogc:And>
-              <ogc:PropertyIsGreaterThan>
+              <ogc:PropertyIsGreaterThanOrEqualTo>
                 <ogc:PropertyName>metric_data_value_float</ogc:PropertyName>
-                <ogc:Literal>125.98999999999999488</ogc:Literal>
-              </ogc:PropertyIsGreaterThan>
-              <ogc:PropertyIsLessThanOrEqualTo>
+                <ogc:Literal>21</ogc:Literal>
+              </ogc:PropertyIsGreaterThanOrEqualTo>
+              <ogc:PropertyIsLessThan>
                 <ogc:PropertyName>metric_data_value_float</ogc:PropertyName>
-                <ogc:Literal>150.99000000000000909</ogc:Literal>
-              </ogc:PropertyIsLessThanOrEqualTo>
+                <ogc:Literal>39</ogc:Literal>
+              </ogc:PropertyIsLessThan>
             </ogc:And>
           </ogc:Filter>
           <se:PointSymbolizer>
@@ -210,14 +204,14 @@
           </se:Description>
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
             <ogc:And>
-              <ogc:PropertyIsGreaterThan>
+              <ogc:PropertyIsGreaterThanOrEqualTo>
                 <ogc:PropertyName>metric_data_value_float</ogc:PropertyName>
-                <ogc:Literal>150.99000000000000909</ogc:Literal>
-              </ogc:PropertyIsGreaterThan>
-              <ogc:PropertyIsLessThanOrEqualTo>
+                <ogc:Literal>0</ogc:Literal>
+              </ogc:PropertyIsGreaterThanOrEqualTo>
+              <ogc:PropertyIsLessThan>
                 <ogc:PropertyName>metric_data_value_float</ogc:PropertyName>
-                <ogc:Literal>1000</ogc:Literal>
-              </ogc:PropertyIsLessThanOrEqualTo>
+                <ogc:Literal>21</ogc:Literal>
+              </ogc:PropertyIsLessThan>
             </ogc:And>
           </ogc:Filter>
           <se:PointSymbolizer>
