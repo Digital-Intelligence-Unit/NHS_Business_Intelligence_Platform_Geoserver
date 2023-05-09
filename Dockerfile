@@ -9,7 +9,9 @@ ENV GEOSERVER_ADMIN_PASSWORD ${GEOSERVER_ADMIN_PASSWORD}
 
 ENV ENABLE_JSONP=true
 ENV GEOSERVER_ADMIN_PASSWORD=$GEOSERVER_ADMIN_PASSWORD
-ENV HTTP_PROXY_NAME=geoserver.dev.nexusintelligencenw.nhs.uk
+
+# To-do: Change to environment variable
+ENV HTTP_PROXY_NAME=geoserver.nexusintelligencenw.nhs.uk
 ENV HTTP_SCHEME=https
 
 # Copy data
