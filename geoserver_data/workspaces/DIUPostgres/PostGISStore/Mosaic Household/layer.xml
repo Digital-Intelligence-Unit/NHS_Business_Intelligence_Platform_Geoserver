@@ -1,0 +1,17 @@
+<layer>
+  <name>Mosaic Household</name>
+  <id>LayerInfoImpl--50e1c0fb:187c1dfceed:-7ff4</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--50e1c0fb:187c1dfceed:-7ff3</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--50e1c0fb:187c1dfceed:-7ff5</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2023-04-27 08:55:18.684 UTC</dateCreated>
+  <dateModified>2023-04-27 09:28:29.273 UTC</dateModified>
+</layer>

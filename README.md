@@ -1,6 +1,6 @@
 # NHS_Business_Intelligence_Platform_Geoserver
 
-This is an extension of <https://github.com/kartoza/docker-geoserver> used for the NHS Business Intelligence Platform.
+This is an extension of <https://github.com/geoserver/docker> used for the NHS Business Intelligence Platform.
 
 ## Terms of Use
 
