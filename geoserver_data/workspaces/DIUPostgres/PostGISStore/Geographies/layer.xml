@@ -1,0 +1,16 @@
+<layer>
+  <name>Geographies</name>
+  <id>LayerInfoImpl--4ce7484b:1888b571952:-7ff4</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--4ce7484b:1888b571952:-7ff6</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--4ce7484b:1888b571952:-7ff5</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2023-06-05 11:38:12.553 UTC</dateCreated>
+</layer>

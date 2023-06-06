@@ -46,7 +46,7 @@
         <enabled>false</enabled>
       </dimensionInfo>
     </entry>
-    <entry key="cachingEnabled">false</entry>
+    <entry key="cachingEnabled">true</entry>
   </metadata>
   <store class="dataStore">
     <id>DataStoreInfoImpl--6dbb465b:16bdbde7ef2:-7ff4</id>
