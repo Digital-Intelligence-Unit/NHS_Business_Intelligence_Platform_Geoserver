@@ -6,6 +6,7 @@
   <mimeFormats>
     <string>image/png</string>
     <string>image/jpeg</string>
+    <string>application/vnd.mapbox-vector-tile</string>
   </mimeFormats>
   <gridSubsets>
     <gridSubset>
