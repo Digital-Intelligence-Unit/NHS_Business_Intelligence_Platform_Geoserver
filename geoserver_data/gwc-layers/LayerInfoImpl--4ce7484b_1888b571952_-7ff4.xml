@@ -23,13 +23,27 @@
   <expireCache>0</expireCache>
   <expireClients>0</expireClients>
   <parameterFilters>
-    <styleParameterFilter>
-      <key>STYLES</key>
-      <defaultValue></defaultValue>
-      <availableStyles class="sorted-set"/>
-      <defaultStyle>DIUPostgres:Polygons</defaultStyle>
-    </styleParameterFilter>
-  </parameterFilters>
+		<styleParameterFilter>
+			<key>STYLES</key>
+			<defaultValue></defaultValue>
+			<availableStyles class="sorted-set">
+				<string>point</string>
+			</availableStyles>
+			<defaultStyle>DIUPostgres:Polygons</defaultStyle>
+		</styleParameterFilter>
+		<stringParameterFilter>
+			<key>CQL_FILTER</key>
+			<defaultValue></defaultValue>
+			<normalize>
+				<locale></locale>
+			</normalize>
+			<values>
+				<string>geo_level=&apos;UTLA&apos;</string>
+				<string>geo_level=&apos;LTLA&apos;</string>
+				<string>geo_level=&apos;Ward&apos; AND geo_year=&apos;2021&apos;</string>
+			</values>
+		</stringParameterFilter>
+	</parameterFilters>
   <gutter>0</gutter>
   <cacheWarningSkips/>
 </GeoServerTileLayer>
