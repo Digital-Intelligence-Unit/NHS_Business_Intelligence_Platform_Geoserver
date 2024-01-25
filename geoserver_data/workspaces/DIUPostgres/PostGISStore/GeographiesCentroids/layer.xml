@@ -1,0 +1,22 @@
+<layer>
+	<name>GeographiesCentroids</name>
+	<id>LayerInfoImpl--161f0deb:18d3c51749b:7719</id>
+	<type>VECTOR</type>
+	<defaultStyle>
+		<id>StyleInfoImpl--161f0deb:18d3c4565e8:-7ffc</id>
+	</defaultStyle>
+	<styles class="linked-hash-set">
+		<style>
+			<id>StyleInfoImpl--161f0deb:18d3c4565e8:-8000</id>
+		</style>
+	</styles>
+	<resource class="featureType">
+		<id>FeatureTypeInfoImpl--161f0deb:18d3c51749b:7718</id>
+	</resource>
+	<attribution>
+		<logoWidth>0</logoWidth>
+		<logoHeight>0</logoHeight>
+	</attribution>
+	<dateCreated>2024-01-24 17:04:07.219 UTC</dateCreated>
+	<dateModified>2024-01-25 11:12:55.579 UTC</dateModified>
+</layer>

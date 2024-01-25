@@ -1,8 +1,8 @@
 <GeoServerTileLayer>
-	<id>LayerInfoImpl--4ce7484b:1888b571952:-7ff4</id>
+	<id>LayerInfoImpl--161f0deb:18d3c51749b:7719</id>
 	<enabled>true</enabled>
 	<inMemoryCached>true</inMemoryCached>
-	<name>DIUPostgres:Geographies</name>
+	<name>DIUPostgres:GeographiesCentroids</name>
 	<mimeFormats>
 		<string>application/vnd.mapbox-vector-tile</string>
 		<string>image/png</string>
@@ -24,10 +24,10 @@
 			<gridSetName>EPSG:4326</gridSetName>
 			<extent>
 				<coords>
-					<double>-3.40627574920654</double>
-					<double>53.4988594055176</double>
-					<double>-2.09055137634277</double>
-					<double>54.5048179626465</double>
+					<double>-3.02922331342144</double>
+					<double>53.6926634105342</double>
+					<double>-2.46759362263052</double>
+					<double>53.8457056630723</double>
 				</coords>
 			</extent>
 		</gridSubset>
@@ -39,6 +39,14 @@
 	<expireCache>0</expireCache>
 	<expireClients>0</expireClients>
 	<parameterFilters>
+		<styleParameterFilter>
+			<key>STYLES</key>
+			<defaultValue></defaultValue>
+			<availableStyles class="sorted-set">
+				<string>point</string>
+			</availableStyles>
+			<defaultStyle>generic</defaultStyle>
+		</styleParameterFilter>
 		<stringParameterFilter>
 			<key>CQL_FILTER</key>
 			<defaultValue></defaultValue>
@@ -48,17 +56,9 @@
 			<values>
 				<string>geo_level=&apos;UTLA&apos;</string>
 				<string>geo_level=&apos;LTLA&apos;</string>
-				<string>geo_level=&apos;UTLA&apos;</string>
-				<string>geo_level=&apos;LTLA&apos;</string>
 				<string>geo_level=&apos;Ward&apos; AND geo_year=&apos;2021&apos;</string>
 			</values>
 		</stringParameterFilter>
-		<styleParameterFilter>
-			<key>STYLES</key>
-			<defaultValue></defaultValue>
-			<availableStyles class="sorted-set"/>
-			<defaultStyle>DIUPostgres:Polygons</defaultStyle>
-		</styleParameterFilter>
 	</parameterFilters>
 	<gutter>0</gutter>
 	<cacheWarningSkips/>
