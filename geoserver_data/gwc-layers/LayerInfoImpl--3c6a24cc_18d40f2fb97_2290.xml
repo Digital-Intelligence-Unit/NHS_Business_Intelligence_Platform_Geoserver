@@ -24,10 +24,10 @@
       <gridSetName>EPSG:900913</gridSetName>
       <extent>
         <coords>
-          <double>-3.40627574920654</double>
-          <double>-2.09055137634277</double>
-          <double>53.4988594055176</double>
-          <double>54.5048179626465</double>
+          <double>-379184.88190314843</double>
+          <double>-232770.76843579937</double>
+          <double>5955465.787043154</double>
+          <double>7266348.465927728</double>
         </coords>
       </extent>
     </gridSubset>
