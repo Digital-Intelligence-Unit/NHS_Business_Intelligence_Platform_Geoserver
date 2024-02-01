@@ -22,14 +22,6 @@
     </gridSubset>
     <gridSubset>
       <gridSetName>EPSG:900913</gridSetName>
-      <extent>
-        <coords>
-          <double>-379184.88190314843</double>
-          <double>7075811.81985054</double>
-          <double>-232719.11469165437</double>
-          <double>7266348.465927728</double>
-        </coords>
-      </extent>
     </gridSubset>
   </gridSubsets>
   <metaWidthHeight>
