@@ -35,7 +35,7 @@
       <key>STYLES</key>
       <defaultValue></defaultValue>
       <availableStyles class="sorted-set"/>
-      <defaultStyle>generic</defaultStyle>
+      <defaultStyle>point</defaultStyle>
     </styleParameterFilter>
     <stringParameterFilter>
       <key>CQL_FILTER</key>
