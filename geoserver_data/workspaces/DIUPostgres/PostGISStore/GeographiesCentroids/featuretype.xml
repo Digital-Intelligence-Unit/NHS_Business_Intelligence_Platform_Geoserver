@@ -25,21 +25,6 @@
 	</latLonBoundingBox>
 	<projectionPolicy>FORCE_DECLARED</projectionPolicy>
 	<enabled>true</enabled>
-	<metadata>
-		<entry key="JDBC_VIRTUAL_TABLE">
-			<virtualTable>
-				<name>pbi_geographies_centroids</name>
-				<sql>SELECT geo_id, geo_name, geo_level, geo_year, ST_CENTROID(geom) as geom FROM pbi_geographies
-</sql>
-				<escapeSql>false</escapeSql>
-				<geometry>
-					<name>geom</name>
-					<type>Point</type>
-					<srid>-1</srid>
-				</geometry>
-			</virtualTable>
-		</entry>
-	</metadata>
 	<store class="dataStore">
 		<id>DataStoreInfoImpl--6dbb465b:16bdbde7ef2:-7ff4</id>
 	</store>
