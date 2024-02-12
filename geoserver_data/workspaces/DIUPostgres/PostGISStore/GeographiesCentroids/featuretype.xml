@@ -1,0 +1,40 @@
+<featureType>
+	<id>FeatureTypeInfoImpl--3c6a24cc:18d40f2fb97:12ef</id>
+	<name>GeographiesCentroids</name>
+	<nativeName>pbi_geographies_centroids</nativeName>
+	<namespace>
+		<id>NamespaceInfoImpl--6dbb465b:16bdbde7ef2:-7ff5</id>
+	</namespace>
+	<title>GeographiesCentroids</title>
+	<keywords>
+		<string>features</string>
+		<string>pbi_geographies_centroids</string>
+	</keywords>
+	<srs>EPSG:4326</srs>
+	<nativeBoundingBox>
+		<minx>-3.40627574920654</minx>
+		<maxx>53.4988594055176</maxx>
+		<miny>-2.09055137634277</miny>
+		<maxy>54.5048179626465</maxy>
+	</nativeBoundingBox>
+	<latLonBoundingBox>
+		<minx>-3.40627574920654</minx>
+		<maxx>53.4988594055176</maxx>
+		<miny>-2.09055137634277</miny>
+		<maxy>54.5048179626465</maxy>
+	</latLonBoundingBox>
+	<projectionPolicy>FORCE_DECLARED</projectionPolicy>
+	<enabled>true</enabled>
+	<store class="dataStore">
+		<id>DataStoreInfoImpl--6dbb465b:16bdbde7ef2:-7ff4</id>
+	</store>
+	<serviceConfiguration>false</serviceConfiguration>
+	<simpleConversionEnabled>false</simpleConversionEnabled>
+	<maxFeatures>0</maxFeatures>
+	<numDecimals>0</numDecimals>
+	<padWithZeros>false</padWithZeros>
+	<forcedDecimal>false</forcedDecimal>
+	<overridingServiceSRS>false</overridingServiceSRS>
+	<skipNumberMatched>false</skipNumberMatched>
+	<circularArcPresent>false</circularArcPresent>
+</featureType>
