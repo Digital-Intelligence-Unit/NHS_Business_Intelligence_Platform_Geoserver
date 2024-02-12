@@ -11,7 +11,7 @@ ENV ENABLE_JSONP=true
 ENV GEOSERVER_ADMIN_PASSWORD=$GEOSERVER_ADMIN_PASSWORD
 
 # To-do: Change to environment variable
-ENV HTTP_PROXY_NAME=geoserver.dev.lancashireandsouthcumbriasis.nhs.uk
+ENV HTTP_PROXY_NAME=geoserver.lancashireandsouthcumbriasis.nhs.uk
 ENV HTTP_SCHEME=https
 
 # Copy data
