@@ -54,7 +54,15 @@
 		<values>
 			<string>geo_level=&apos;UTLA&apos;</string>
 			<string>geo_level=&apos;LTLA&apos;</string>
+      <string>geo_level=&apos;MSOA&apos;</string>
+      <string>geo_level=&apos;LSOA&apos;</string>
+      <string>geo_level=&apos;Ward&apos; AND geo_year=&apos;2022&apos;</string>
 			<string>geo_level=&apos;Ward&apos; AND geo_year=&apos;2021&apos;</string>
+      <string>geo_level=&apos;Ward&apos; AND geo_year=&apos;2018&apos;</string>
+      <string>geo_level=&apos;Ward&apos; AND geo_year=&apos;2017&apos;</string>
+      <string>geo_level=&apos;Ward&apos; AND geo_year=&apos;2016&apos;</string>
+      <string>geo_level=&apos;Ward&apos; AND geo_year=&apos;2015&apos;</string>
+      <string>geo_level=&apos;Ward&apos; AND geo_year=&apos;2011&apos;</string>
 		</values>
 	</stringParameterFilter>
   	</parameterFilters>
