@@ -41,6 +41,8 @@
 				<string>geo_level=&apos;UTLA&apos;</string>
 				<string>geo_level=&apos;LTLA&apos;</string>
 				<string>geo_level=&apos;Ward&apos; AND geo_year=&apos;2021&apos;</string>
+        <string>geo_level=&apos;LSOA&apos;</string>
+        <string>geo_level=&apos;OA&apos;</string>
 			</values>
 		</stringParameterFilter>
 	</parameterFilters>
