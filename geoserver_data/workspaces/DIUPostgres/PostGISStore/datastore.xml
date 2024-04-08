@@ -31,7 +31,7 @@
         <entry key="max connections">10</entry>
         <entry key="Evictor tests per run">3</entry>
         <entry key="Test while idle">true</entry>
-        <entry key="user">postgres</entry>
+        <entry key="user">POSTGRES_UN</entry>
         <entry key="Max connection idle time">300</entry>
     </connectionParameters>
     <__default>false</__default>
