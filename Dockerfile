@@ -1,4 +1,4 @@
-FROM kartoza/geoserver:2.23.0
+FROM kartoza/geoserver:2.26.0
 
 ARG PGDATABASE
 ENV PGDATABASE ${PGDATABASE}
